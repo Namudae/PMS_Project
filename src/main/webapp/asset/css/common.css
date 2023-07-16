@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.txtboxshadow {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #999;
+    box-shadow: -1px 3px 3px gray;
+    font-size: 16px;
+    width: 250px;
+}
+
+.txtbox {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #999;
+    font-size: 16px;
+    width: 250px;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 8px 15px;
+    background-color: #9DB2BF;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 10px;
+    
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd; 
+}
+
+
+.btnred {
+    border-radius: 10px;
+    padding: 8px 15px;
+    background-color: #FA7676;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.btnred:hover {
+    background-color: #ddd; 
+}
+
+body {
+    color: #1C1C1C;
+    font: 14px/24px "맑은고딕", "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+table.listtbl {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 1px solid #A7ABB7;
+}
+
+table.listtbl th,
+table.listtbl td {
+    padding: 8px 15px;
+    
+}
+
+table.listtbl th {
+    background: #DEE7EC;
+    color: #1F1F1F;
+    text-align: left;
+}
+
+table.listtbl tr:first-child th:first-child {
+    /* border-top-left-radius: 6px; */
+    border: 1px solid #A7ABB7;
+}
+
+table.listtbl tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+table.listtbl td {
+    border: 1px solid #A7ABB7;
+}
+
+table.listtbl td:first-child {
+    border: 1px solid #A7ABB7;
+}
+
+table.listtbl th {
+    border: 1px solid #A7ABB7;
+   
+}
+
+
+
+/* table.listtbl th:first-child {
+    border-left: 2px solid #9DB2BF;
+} */
+
+/* table.listtbl tr:nth-child(even) td {
+    background: #eaeaed;
+} */
+
+table.listtbl tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+table.listtbl tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+table.listtbl textarea {
+    width: 950px;
+    height: 300px;
+}
+
+.pagination {
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+a {
+   text-decoration: none;
+   color: #1F1F1F;
+}
+
+a:hover {
+   text-decoration: underline;
+}

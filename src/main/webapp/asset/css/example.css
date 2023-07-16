@@ -1,0 +1,121 @@
+/* 공통 서식 */
+
+body, p, div, span, ul, ol, li, input, textarea, option, b, i, table, td, th, h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    font-family: '맑은 고딕';
+}
+
+/* 
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+*/
+
+.table {
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #999;
+}
+
+
+.table.wide {
+    width: 100%;
+}
+
+.table.wide th, .table.wide td {
+    padding: 5px 10px;
+}
+
+.table.narrow {
+
+}
+
+.table.narrow th, .table.narrow td {
+    padding: 3px 5px;
+}
+
+.table.striped {
+    
+}
+
+.table.striped tr:nth-child(even) {
+    background-color: #DDD;
+}
+
+.btn {
+    border: 1px solid #999;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.btn.primary {
+    background-color: cornflowerblue;
+}
+
+.btn.danger  {
+    background-color: tomato;
+}
+
+.btn.warning {
+    background-color: gold;
+}
+
+.btn.small {
+    padding: 2px 5px;
+}
+
+.btn.large {
+    padding: 10px 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box.small {
+    width: 100px;
+    height: 100px;
+}
+.box.large {
+    width: 300px;
+    height: 300px;
+}
+
+.box.bg-red {
+    background-color: tomato;
+}
+
+.box.bg-blue {
+    background-color: dodgerblue;
+}
+
+.box.bg-yellow {
+    background-color: gold;
+}
+
+.box.bg-green {
+    background-color: chartreuse;
+}
+
+.box.bg-orange {
+    background-color: orange;
+}
+
+.box.fg-black {
+    color: #000;
+}
+
+.box.fg-white {
+    color: #FFF;
+}
+
+.box.inline {
+    display: inline-block;
+}
